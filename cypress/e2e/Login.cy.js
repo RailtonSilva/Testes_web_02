@@ -1,5 +1,5 @@
 describe('Testes de Login', () => {
-  it.only('Login com sucesso', () => {
+  it('Login com sucesso', () => {
 
     cy.visit('https://front.serverest.dev/login')
     cy.get('[data-testid="email"]').type('felipesilva123@gmail.com')
